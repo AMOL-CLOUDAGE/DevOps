@@ -1,6 +1,4 @@
 #!/bin/bash
 
-#comment line
-ls
-cat /etc/passwd
-
+NO_OF_USERS=$(who | wc -l)
+echo number of user in system =$NO_OF_USERS
