@@ -1,3 +1,7 @@
- DATE=14-06-21
+ #DATE=14-06-21
 
- echo good morning on $DATE
+
+
+ DATE=$(DATE +%F)
+
+  echo good morning on $DATE
