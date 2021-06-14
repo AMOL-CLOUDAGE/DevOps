@@ -3,5 +3,5 @@
 
  echo amol birthd date is $DATE
 
- NO_OF_USER=$(Who | wc -l)
+ NO_OF_USER=$(who | wc -l)
  echo number of user logged in = $NO_OF_USER
