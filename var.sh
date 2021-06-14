@@ -4,4 +4,4 @@
 
  DATE=$(date +%F)
 
-  echo good morning on $DATE
+  echo goodd morning on $DATE
