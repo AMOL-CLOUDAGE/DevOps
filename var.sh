@@ -2,6 +2,6 @@
 
 
 
- DATE=$(DATE +%F)
+ DATE=$(date +%F)
 
   echo good morning on $DATE
