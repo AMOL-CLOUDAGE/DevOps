@@ -1,7 +1,4 @@
  #DATE=14-06-21
+ DATE=140390
 
-
-
- DATE=$(date +%F)
-
-  echo goodd morning on $DATE
+ echo amol birthd date is $DATE
