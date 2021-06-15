@@ -1,6 +1,7 @@
 #!/bin/bash
 
-HEAD() {
-  echo -e "\e1m $1 \e[0m \t\t..."
+disable-auto-shutdown
 
+HEAD() {
+  echo -n -e "\e[1m $1 \e[0m \t\t ... "
 }
