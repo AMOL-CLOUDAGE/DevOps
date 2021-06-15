@@ -1,7 +1,7 @@
-#!/bin/bash
+source component/common.sh
+rm -f /tmp/roboshop.log
+set-hostname frontend
 
-source /component/common.sh
-
-HEAD "INSTALLING NGINX"
+HEAD "Installing Nginx\t"
 yum install nginx -y &>>/tmp/roboshop.log
-echo -e "\e[32mdone\[0m"
+STAT $?
