@@ -11,3 +11,5 @@ if [ "$username" == "root" ]; then
 else
 
   echo "Hey, User $username is a normal user"
+
+fi
