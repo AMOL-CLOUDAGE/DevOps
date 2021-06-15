@@ -1,2 +1,2 @@
  coffee:
-    @echo making a tea
+    @echo making a coffee
