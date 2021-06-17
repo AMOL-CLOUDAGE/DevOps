@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source components/common.sh
+source component/common.sh
 rm -f /tmp/roboshop.log
 set-hostname mongodb
 
